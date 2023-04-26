@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'EunsuLog',
   domain: 'blog.2skydev.com',
-  author: '2skydev',
+  author: 'Jang Eunsu',
 
   // open graph metadata (optional)
   description: '2skydev blog - developer blog',
