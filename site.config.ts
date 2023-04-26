@@ -53,8 +53,12 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
+      title: '포트폴리오',
+      pageId: '9574515d2f30441babda9325192266c4',
+    },
+    {
+      title: '이력서',
+      pageId: '27b4ab99d3d84de4ba1be8cbb460b5f1',
     },
   ],
 
