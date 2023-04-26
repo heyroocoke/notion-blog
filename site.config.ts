@@ -53,6 +53,10 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '홈',
+      pageId: '625638f018ee44529fc87a1897cb335f',
+    },
+    {
       title: '포트폴리오',
       pageId: '9574515d2f30441babda9325192266c4',
     },
