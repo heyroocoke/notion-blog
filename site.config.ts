@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'EunsuLog',
-  domain: 'blog.2skydev.com',
+  domain: 'https://jangeunsu-notion-blog.vercel.app/',
   author: 'Jang Eunsu',
 
   // open graph metadata (optional)
