@@ -9,6 +9,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
+          {/* <title>Eunsulog</title> */}
+          <meta name="description" content="장은수 블로그" />
+          <meta name="keywords" content="개발블로그" />
+          <meta property="og:title" content="Eunsulog" />
+          {/* <meta property="og:image" content={post.thumbnail} /> */}
+          <meta property="og:description" content="장은수 개발블로그" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="icon" type="image/png" sizes="128x128" href="favicon.png" />
 
