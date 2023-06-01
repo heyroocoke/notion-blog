@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Jang Eunsu',
 
   // open graph metadata (optional)
-  description: '2skydev blog - developer blog',
+  description: '장은수 개발블로그',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
