@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import { GoogleAnalytics } from 'nextjs-google-analytics';
+import { Analytics } from '@vercel/analytics/react';
 
 import axios from 'axios';
 import { motion } from 'framer-motion';
@@ -86,6 +87,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
           transition={{ duration: 0.3 }}
         >
           <Component {...pageProps} />
+          <Analytics mode={'production'} />;
         </motion.div>
       </SWRConfig>
     </RecoilRoot>
