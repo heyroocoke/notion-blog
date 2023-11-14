@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Analytics } from '@vercel/analytics/react';
 
 // import { defaultTheme } from '~/lib/config';
 
@@ -9,7 +10,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ko">
         <Head>
-          {/* <title>Eunsulog</title> */}
           <meta name="description" content="장은수 블로그" />
           <meta name="keywords" content="개발블로그" />
           <meta property="og:title" content="Eunsulog" />
@@ -56,6 +56,7 @@ export default class MyDocument extends Document {
           <Main />
 
           <NextScript />
+          <Analytics />
         </body>
       </Html>
     );
